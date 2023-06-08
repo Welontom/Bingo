@@ -12,4 +12,4 @@ Foi pedido pelo professor Otávio que os alunos fizessem um bingo. Inicialmente,
 
 ## Resultado
 
-O projeto durou cerca de 4 horas para ser finalizado. Creio que eu tenha conseguido expremir exatamente aquilo que idealizei. O projeto pode ser acessado pelo *github pages* e os códigos no diretório principal desse repositório.
+O projeto durou cerca de 4 horas para ser finalizado. Creio que eu tenha conseguido expremir exatamente aquilo que idealizei. O projeto pode ser acessado pelo *github pages* no link https://welontom.github.io/Bingo/ e os códigos no diretório principal desse repositório.
