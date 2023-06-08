@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <textarea name="console" id="console" cols="20" rows="10"></textarea>
+        <img onclick="sortear()" src="./imagens/bingoicon.png" alt="" id="globo">
+    </header>
+    <main>
+        <section id="nav">
+            <button onclick="limparConsole()">Limpar console</button>
+            <button onclick="gerarCartela()">Gerar cartela</button>
+            <button onclick="reiniciarSorteio()">Resetar sorteio</button>
+        </section>
+        <section id="cartelas">
+        </section>
+    </main>
+    <footer><h2>Desenvolvido por Welington</h2></footer>
+    <script src="index.js"></script>
+</body>
+</html>

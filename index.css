@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 25vh;
+}
+main{
+    width: 100%;
+    height: 70vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    bottom: 0px;
+}
+footer h2{
+    color: white;
+}
+#sorteados td{
+    text-align: center;
+    border: 2px solid black;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    color: gray;
+}
+.cartela{
+    margin: 10px;
+}
+.cartela td,th{
+    text-align: center;
+    border: 2px solid black;
+    height: 25px;
+    width: 25px;
+    color: black;
+}
+#globo{
+    height: 60px;
+    margin-right: 50px;
+}
+#globo:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    scale: 1.2;
+}
+#nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height:10%;
+}
+#cartelas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+button{
+    text-align: center;
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+#console{
+    resize: none;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
